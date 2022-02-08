@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media(min-width:481px) and (max-width:1023px){
+
+
+p{
+    background-color: rgb(74, 155, 236);
+    margin-left: 0;
+    width: 50%;
+
+}
+
+.kineIndex{
+        display: flex;
+        flex-direction: column;
+        }
+
+#cientifico{
+            color: rgb(99, 71, 255);
+            background-color: rgb(64, 224, 72);
+            padding: 25px;
+        }
+
+        .serviciosHtml{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr ;
+           
+            
+        }
+
+        
+}
+
+
+
+
+header{
+background-image: linear-gradient(rgb(115, 158, 73),rgb(104, 104, 226));
+}
+
+
+body{ 
+    background-image:radial-gradient(rgb(144, 216, 154),rgb(11, 22, 2));
+}
+
+
+
+nav{
+    padding: 45px;
+}
+
+span{
+background-color: rgb(248, 240, 240);
+padding: 15px;
+margin-left: 4px;
+
+
+  }
+
+.menuPrincipal{
+    display: flex;
+  flex-direction: row ;
+  justify-content: flex-end;
+ 
+}
+
+.menuPrincipal :hover{
+    background-color: rgb(115, 158, 73);
+    color: white;
+    
+}
+
+
+.imagenesPortada{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.imagenUno{
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 50%;
+
+}
+
+.imagenDos{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.parrafoIndex{
+    display: flex;
+    flex-direction: column;
+    }
+
+
+
+   
+
+
+h1{
+    color: white;
+    padding: 25px;
+     
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.servicios{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#spanRpg{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#spanOsteo{
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+}
+
+#spanDrenaje{
+    background-color: rgb(31, 118, 248);
+    display: flex;
+    justify-content: center;
+}
+
+#spanFkt{
+    background-color: rgb(241, 131, 53);
+    display: flex;
+    justify-content: center;
+}
+
+#spanVestibular{
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+
+#spanStretch{
+    background-color: rgb(18, 245, 29);
+    display: flex;
+    justify-content: center;
+    
+}
+.sedesIndex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: linear-gradient( to bottom right, yellow ,rgb(133, 233, 236));
+    padding: 25px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.kineIndex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.pieDePagina{
+    text-align: center;
+    background-image: linear-gradient( rgb(104, 104, 226),rgb(115, 158, 73));
+    color: black;
+    font-size: smaller;
+   padding: 50px;
+   margin-top: 25px;
+  
+}
+
+
+
+#cientifico{
+    color: tomato;
+    background-color: rgb(201, 247, 242);
+    padding: 25px;
+}
+
+
+   
+
+
+
+
+
+.pieDePagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+
+.kineUno{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 400px;
+        }
+
+.serviciosHtml{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 20px;
+   
+    
+}
+
+.divServicios{
+    
+    
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: rgb(212, 73, 73);
+    background-color: whitesmoke;
+    margin-bottom: 2px;
+
+
+}
+
+.parrafoServicios{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: rgb(243, 209, 209);
+    background-color: rgb(19, 17, 17);
+    margin-bottom: 2px;
+
+}
+
+hr{margin: 10px;}
+
+
+.animaciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation-name: animaciones;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes animaciones{
+    0%{
+        transform: translatex(-150px);
+    
+ }
+
+
+    50%{transform: translatex(250px);
+
+    }
+
+    100%{
+        transform: translate(-150px);
+    }
+
+}
+
+#animacion{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transform: rotate(12deg);
+    padding: 25px;
+}
+
+#animacion1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 102, 32);
+    transform: rotate(-12deg);
+    padding: 25px;
+}
+
+
+
+#animacion2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(211, 14, 14);
+    transform: rotate(12deg);
+    padding: 25px;
+
+}
+
+#animacion3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 163, 54);
+    transform: rotate(-12deg);
+    padding: 25px;
+
+}
+
+.contactosPagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    animation-name: contactos;
+    animation-iteration-count: inherit;
+    animation-duration: 3s;
+    
+} 
+
+@keyframes contactos{
+    0%{
+        transform: translatex(30px);
+    
+ }
+
+
+    50%{transform: translatex(250px);
+
+    }
+
+    100%{
+        transform: translate(-30);
+    }
+
+    
+}
+
+#contaco1{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(rgb(6, 41, 61),rgb(192, 230, 22));
+    
+    padding: 25px;
+    margin: 10px;
+}
+
+#contacto2{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(rgb(31, 58, 3),rgb(55, 58, 17));
+    
+    padding: 25px;
+    margin: 10px;
+}
+
+#contacto3{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(rgb(224, 37, 152),rgb(85, 125, 170));
+    
+    padding: 25px;
+    margin: 10px;
+}
+
+#contacto4{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(rgb(72, 143, 177),rgb(140, 175, 45));
+    
+    padding: 25px;
+    margin: 10px;
+}
+
+#contacto5{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(rgb(18, 26, 10),rgb(223, 121, 26));
+    
+    padding: 25px;
+    margin: 10px;
+}
+
+#contacto6{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(rgb(154, 216, 92),rgb(175, 45, 62));
+    
+    padding: 25px;
+    margin: 10px;}
+
+    footer{
+        background-image: linear-gradient(rgb(115, 158, 73),rgb(104, 104, 226));  
+        padding: 25px;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    .spanServicios{
+        text-align: center;
+        background-color: aqua;
+    }
+        
+
+ul{
+    margin: 1px;
+}
+
+#columnasKine{
+    display: flex;
+    justify-content: space-around;
+}
+
+#galeria img{
+    width: 100%;
+    height: 300px;
+}
+
+#galeria .col-lg-4{
+    padding: 20px;
+}
+
+#galeria img:hover{
+
+border: 5px solid white;
+}
+
+#tituloSedes{
+    text-align: center;
+    color: white;
+}
