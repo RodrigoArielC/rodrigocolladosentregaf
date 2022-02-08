@@ -5,36 +5,7 @@
     margin: 0;
 }
 
-@media(min-width:481px) and (max-width:1023px){
 
-
-p{
-    background-color: rgb(74, 155, 236);
-    margin-left: 0;
-    width: 50%;
-
-}
-
-.kineIndex{
-        display: flex;
-        flex-direction: column;
-        }
-
-#cientifico{
-            color: rgb(99, 71, 255);
-            background-color: rgb(64, 224, 72);
-            padding: 25px;
-        }
-
-        .serviciosHtml{
-            display: grid;
-            grid-template-rows: 1fr 1fr 1fr ;
-           
-            
-        }
-
-        
-}
 
 
 
@@ -62,17 +33,31 @@ margin-left: 4px;
 
   }
 
-.menuPrincipal{
+#menuPrincipal{
+    
     display: flex;
   flex-direction: row ;
   justify-content: flex-end;
  
 }
 
-.menuPrincipal :hover{
-    background-color: rgb(115, 158, 73);
+#menuPrincipal :hover{
+    background-color: rgb(189, 245, 133);
     color: white;
     
+}
+
+#menuPrincipal :visited{
+    background-color: rgb(227, 228, 243);
+    color: rgb(91, 66, 235);
+    
+    
+}
+
+
+
+.listasMenu {
+    background-color: beige;
 }
 
 
@@ -135,6 +120,8 @@ h2{
     display: flex;
     justify-content: center;
 }
+
+
 
 #spanDrenaje{
     background-color: rgb(31, 118, 248);
@@ -442,4 +429,13 @@ border: 5px solid white;
 #tituloSedes{
     text-align: center;
     color: white;
+}
+
+#textoIndex{
+    
+    justify-content: center;
+    animation-name: animaciones;
+    color: red;
+    animation-duration: 3s;
+      
 }
