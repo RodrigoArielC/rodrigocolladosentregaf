@@ -184,13 +184,18 @@ h3{
 
 #cientifico{
     color: tomato;
-    background-color: rgb(201, 247, 242);
+    background-color: rgb(215, 243, 240);
     padding: 25px;
 }
 
+#cientifico::after{
+    content: "⇩ ARTICULOS";
+    color: rgb(243, 209, 209);
+    background-color: rgb(241, 33, 162);
+    padding: 3px;
+    margin: 2px;
 
-   
-
+}
 
 
 
@@ -239,7 +244,7 @@ h3{
 
 }
 
-hr{margin: 10px;}
+hr{margin: 5px;}
 
 
 .animaciones {
@@ -438,4 +443,52 @@ border: 5px solid white;
     color: red;
     animation-duration: 3s;
       
+}
+
+
+.prepagas{
+    background-image: linear-gradient(rgb(123, 98, 233),rgb(208, 208, 236)) ;
+}
+
+.botonIndex{
+    text-align: center;
+}
+
+#botonIndex2{
+   
+    background:linear-gradient(182deg, rgb(173, 173, 236), rgb(224, 117, 117));
+    display: inline-block;
+    padding: 1rem,2rem;
+    border-radius: 0.25rem;
+    min-width: 200px;
+    text-decoration:none;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.5) ;
+    animation: pulse 1.5s infinite;
+    
+
+} 
+ 
+@keyframes pulse{
+
+    0%{
+        transform:scale(.99); ;
+        box-shadow: 0 0 0 0 rgba(256,256,256,.1) ;
+    }
+
+
+    70%{
+        transform:scale(1); ;
+        box-shadow:0 0 0 15px rgba(250,143,0) ;
+    }
+
+    100%{
+        transform:scale(.99); ;
+        box-shadow:0 0 0 0 rgba(256,256,256,0) ;
+    }
+
+
+
+
+
+
 }
